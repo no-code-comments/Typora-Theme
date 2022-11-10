@@ -1,0 +1,19 @@
+/* 
+ * This file is originated from https://github.com/liangjingkanji/DrakeTyporaTheme
+ * Some new fonts are added for supporting better overall display
+ */
+
+/*快速自定义配置*/
+:root {
+    /*--monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan;*/
+    --monospace: "Century Schoolbook", "YEFONTYanShanTinXinKai", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan;
+    --text-font: var(--monospace); /*正文字体*/
+    --title-font: "Potra", var(--monospace); /*标题字体*/
+    --header-font: "Roboto Light", var(--monospace); /*小标题字体*/
+    --code-font: "Source Code Pro", var(--monospace); /*代码字体*/
+    --latex-font: var(--monospace); /*LaTeX字体(不含英语)*/
+    --text-line-height: 1.5; /*正文行间距*/
+    --code-line-height: 1.5; /*代码块行间距*/
+    --p-spacing: 0.8rem; /*段间距*/
+    --text-size: 20px;
+}
